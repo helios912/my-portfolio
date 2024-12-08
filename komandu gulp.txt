@@ -1,0 +1,9 @@
+gulp --tasks   --- таски
+gulp sprite    --- створити sprite
+gulp fonts     --- конвертувати шрифти
+gulp building  --- спочатку створити папку dist
+gulp build     --- очистити dist і скинути готовий проект в dist
+gulp (npx gulp)--- запуск режима розробки
+npm i          --- пдготовка проекта
+
+npm i gulp-sass --- установка
