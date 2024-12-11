@@ -90,6 +90,7 @@ function scripts() {
     return src([
         // "node/swiper/swiper-bundle.js",    якщо треба підключити ще якийсь файл js або якщо скинути в папку
         'node_modules/mixitup/dist/mixitup.js',
+        'node_modules/jquery/dist/jquery.js',
         'app/js/main.js',
     ]) // бере файл
         .pipe(concat('main.min.js')) //переіменувати

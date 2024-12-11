@@ -4,12 +4,29 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/images/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <title>My portfolio</title>
         <link rel="stylesheet" href="css/style.min.css" />
     </head>
 
     <body>
-        <header>
+        <header id="main">
             <div class="container">
                 <div class="header__menu">
                     <div class="header__menu-wrapper">
@@ -23,30 +40,39 @@
                         <nav class="menu__body">
                             <ul class="menu__list">
                                 <li class="menu__item">
-                                    <a href="#" class="menu__link">Про мене</a>
+                                    <a href="#about" class="menu__link">Про мене</a>
                                 </li>
                                 <li class="menu__item">
-                                    <a href="#" class="menu__link">Послуги</a>
+                                    <a href="#services" class="menu__link">Послуги</a>
                                 </li>
                                 <li class="menu__item">
-                                    <a href="#" class="menu__link">принципи</a>
+                                    <a href="#princip" class="menu__link">принципи</a>
                                 </li>
                                 <li class="menu__item">
-                                    <a href="#" class="menu__link">Портфоліо</a>
+                                    <a href="#portfolio" class="menu__link">Портфоліо</a>
                                 </li>
                             </ul>
-                            <a class="menu__link zviazok" href="#">Звязатись</a>
+                            <a class="menu__link zviazok" href="#contact">Звязатись</a>
                             <a class="menu__link language" href="#">ENG</a>
-                        </nav>
+                            
+                            
+                            
+                            
+                          </nav>
+                          <div class="burger">
+                            <div class="menu hamburger1">
+                              <span></span>
+                              <span></span>
+                              <span></span>
+                            </div>
+                          </div>
                     </div>
                 </div>
             </div>
         </header>
-    </body>
-</html>
+  
 
-
-<main>
+ <main>
     <section class="main">
         <div class="container">
             <div class="main__wrapper">
@@ -59,7 +85,7 @@
                         час.
                     </p>
                     <div class="main__content-btn-wrapper">
-                        <a href="#" class="main__content-btn"
+                        <a href="#services" class="main__content-btn"
                             ><p class="main__content-btn-text">Детальныше</p>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -74,14 +100,15 @@
                                 />
                             </svg>
                         </a>
-                        <a href="" class="main__content-btn-zsulka"
+                        <a href="#contact" class="main__content-btn-zsulka"
                             >Залишились питання ?</a
                         >
                     </div>
                 </div>
                 <div class="main__content-foto">
-                    <div class="some-foto"></div>
-                    <img src="./images/main-foto.avif" alt="Image" />
+                    <div class="some-foto"><img src="./images/main-foto1.avif" alt="Image" /></div>
+                   
+                    
                 </div>
             </div>
         </div>
@@ -122,7 +149,7 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <h3 class="section__title">Про мене</h3>
             <div class="about__content-wrapper">
@@ -154,7 +181,7 @@
             </div>
         </div>
     </section>
-    <section class="services">
+   <section class="services" id="services">
         <div class="container">
             <h3 class="section__title">Послуги</h3>
             <h4 class="section__subtitle">Дизайн і редизайн</h4>
@@ -287,7 +314,7 @@
             </div>
         </div>
     </section>
-    <section class="principles">
+    <section class="principles" id="princip">
         <div class="container">
             <h3 class="section__title">У своїй роботі я керуюсь принципами</h3>
             <div class="services__wrapper principles__wrapper">
@@ -480,7 +507,7 @@
             
         </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
       <div class="container">
         <h3 class="section__title">Портфоліо</h3>
         <div class="portfolio__design-wrapper">
@@ -592,7 +619,7 @@
     </section>
 </main>
 
- <footer>
+ <footer id="contact">
 
   <div class="container">
 
@@ -608,7 +635,7 @@
 
         <li class="footer__menu-item">
 
-          <a href="#" class="footer__menu-item-content">
+          <a href="#main" class="footer__menu-item-content">
 
             <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 
@@ -632,7 +659,7 @@
 
         <li class="footer__menu-item">
 
-          <a href="#" class="footer__menu-item-content">
+          <a href="#about" class="footer__menu-item-content">
 
             <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
 
@@ -654,7 +681,7 @@
 
         <li class="footer__menu-item">
 
-          <a href="#" class="footer__menu-item-content">
+          <a href="#portfolio" class="footer__menu-item-content">
 
             <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
 
