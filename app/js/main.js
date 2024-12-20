@@ -223,9 +223,7 @@ $(document).ready(function () {
         onShow: null,
         onHide: null,
     });
-});
-
-$('.instagram').tipso({
+    $('.instagram').tipso({
     speed: 400,
     background: '#1877f2',
     titleBackground: '#1877f2',
@@ -252,6 +250,25 @@ $('.instagram').tipso({
     onShow: null,
     onHide: null,
 });
+    Fancybox.bind('[data-fancybox="gallery"]', {
+    compact: false,
+    contentClick: 'iterateZoom',
+    Images: {
+      Panzoom: {
+        maxScale: 5,
+      },
+    },
+    Toolbar: {
+      display: {
+        left: ['infobar'],
+        middle: [],
+        right: ['iterateZoom', 'close'],
+      },
+    },
+  });
+});
+
+
 
 document.querySelectorAll('.accordeon__triger').forEach((item) => {
     item.addEventListener('click', () => {

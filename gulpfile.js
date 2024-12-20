@@ -92,6 +92,8 @@ function scripts() {
         'node_modules/mixitup/dist/mixitup.js',
         'node_modules/jquery/dist/jquery.js',
         'app/js/tipso.js',
+        'app/js/fancybox.umd.js',
+        
         'app/js/main.js',
     ]) // бере файл
         .pipe(concat('main.min.js')) //переіменувати
