@@ -79,6 +79,7 @@ body {
 section {
     margin-bottom: 100px;
 }
+
 .header__menu {
     border-radius: 36px;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -552,6 +553,9 @@ footer {
 }
 .burger {
     display: none;
+}
+.none {
+  display: none;
 }
 
 @media (max-width: 1300px) {
